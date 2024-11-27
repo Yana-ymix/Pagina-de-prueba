@@ -1,0 +1,11 @@
+.información-contactos{
+    justify-content: center;
+align-items: center;
+}
+
+footer {
+    background-color: rgb(151, 178, 190);
+    color: rgb(219, 49, 49);
+    padding: 10px;
+    text-align: justify;
+}

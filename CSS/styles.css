@@ -1,0 +1,83 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    font-size:xx-large;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(119, 5, 5);
+    justify-content: flex-start;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(119, 5, 5);
+    justify-content: center;  
+}
+
+.container{
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/31/11/21/people-2557396_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #ffffff;
+    padding: 20px;
+    letter-spacing: 3px; 
+    text-align: center;
+}
+
+nav{
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #f7e6e6;
+}
+
+nav a{
+    color: rgb(119, 5, 5);
+    text-align: center;
+    padding: 20px;
+    font-size:medium;
+    text-decoration: none;
+}
+
+
+
+section {
+    background-color: #f7e6e6;
+    color: black;
+    padding: 10px;
+    text-align:justify;
+    flex-direction: row-reverse;
+}
+
+footer {
+    background-color: rgb(151, 178, 190);
+    color: rgb(219, 49, 49);
+    padding: 10px;
+    text-align: justify;
+}
+
+.información-introducción{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.frase {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:row-reverse;
+}
+
+.texto-reciclaje{
+    justify-content: center;
+    align-items: center;
+}
+

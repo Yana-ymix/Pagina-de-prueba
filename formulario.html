@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularia</title>
+    <link rel="stylesheet" href="CSS/styles3.css">
+    
+</head>
+
+<body>
+    <h1>Formulario de inscripción</h1>
+    <nav><a href="index.html">Inicio</a></nav>
+    <style>
+        label {
+            display: block;
+            float: left;
+            width: 250px;
+        }
+    </style>
+<div class="formulario">
+    <form action="">
+        <div>
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="Nombre" name="Nombre" required>
+        </div>
+        <div>
+            <label for="E-mail">E-mail</label>
+            <input type="text" id="E-mail">
+        </div>
+        <div>
+            <label for="Número telefonico">Número telefonico</label>
+            <input type="text" id="Número telefonico" name="Número telefonico" required>
+        </div>
+        <div>
+            <label for="Nombre del">Nombre del</label>
+            <input type="text" id="Nombre del" name="Nombre del" required>
+        </div>
+        <div>
+            <label for="Comentario/consulta">Comentario/consulta</label>
+            <input type="text" id="Comentario/consulta" name="Comentario/consulta" required>
+        </div>
+        <input type="submit" onclick="return enviarformulario();" value="Enviar"><br>
+    </form>
+    <div id="error"></div>
+</div>
+
+    <footer>Constanza Monasterio, Bianca Rosales Moll y Wendy Weng
+        <div class="información-formulario">
+            <p>
+                Sunflowers 6877-Villa Ballester<br>
+                Tel: 57698932435
+                E-mail: recepcion@colegiosanflowers
+            </p>
+            <table border="1">
+                <tr>
+                    <th>
+                        <form action="">
+                            <div>
+                                <label for="Nombre">Nombre</label>
+                                <input type="text" id="Nombre">
+                            </div>
+                        </form>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <form action="">
+                            <div>
+                                <label for="E-mail">E-mail</label>
+                                <input type="text" id="E-mail">
+                            </div>
+                        </form>
+                    </th>
+                </tr>
+            </table>
+            <input type="submit" onclick="return enviarformulario();" value="Enviar">
+            </form>
+            <div id="error"></div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
+
